@@ -6,7 +6,6 @@ import datetime
 from helper_credentials import get_credentials
 
 def run_spotify_etl(runID, executionDate):
-    #TOKEN = 'BQDS_LfFS_jS6DblTaw1D32MpNp9yfjRdzR60ILwsc4qhpP2Pb9FsgoRpuDleBVUwD-kQopkspc4pO3Te614rX1nsUPINStqzyMWY3fUfM5YZKGzm1eWmmhtJskKAQYEc7THyU6Kf8P4wuEMJ63pHI7gYmnhSshA4dRcRTzg'
     TOKEN = get_credentials("SPOTIFY_AUTH")
     # Extract part of the ETL process
     headers = {
